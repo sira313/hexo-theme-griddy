@@ -8,8 +8,8 @@ Live Demo : [Aflasio](https://aflasio.netlify.com).
 Demo Post : [Sample Post](https://aflasio.netlify.com/post/pepper-carrot-fanart/). 
 This Theme is automatically generate your category by the front matter.
 
-![demo](/images/blog/griddy.png)
-![demo2](/images/blog/griddy2.png)
+![demo](ss.png)
+![demo2](ss2.png)
 
 ### Feature
  - Responsive 
