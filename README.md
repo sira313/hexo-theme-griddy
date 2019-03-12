@@ -19,13 +19,13 @@ This Theme is automatically generate your category by the front matter.
  - Gallery with fancybox
  - Grid
 ### Installation
-clone theme
+Clone the theme
 
 ```bash
 git clone https://github.com/sira313/hexo-theme-griddy themes/griddy
 ```
 
-modify file hexo `_config.yml` site
+Modify file hexo `_config.yml` site
 
 ```bash
 theme: griddy
