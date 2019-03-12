@@ -1,0 +1,10 @@
+<%- partial('_partial/menu') %>
+<%- partial('_partial/header') %>
+<% var i = 0; %>
+<div class="columns is-multiline main">
+    <% page.posts.each(function(item){ i++ %>
+        <%- partial('_partial/article-archive', {item: item}) %>
+    <% }); %>
+</div>
+<%- partial('_partial/pagination') %>
+<%- partial('_partial/footer') %>

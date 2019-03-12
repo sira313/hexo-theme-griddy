@@ -1,0 +1,11 @@
+
+<% if(page.prev || page.next) { %>
+  <nav class="pagination is-centered" role="navigation" aria-label="pagination">
+        <a class="button is-outlined pagination-previous" href="<%- config.root %><%- page.prev_link %>" <%- page.prev ? "" : "disabled" %> >
+           <span class="icon"><i class="fas fa-chevron-left"></i></span><span>Previous</span> 
+        </a>
+        <a class="button is-outlined pagination-next" href="<%- config.root %><%- page.next_link %>" <%- page.next ? "" : "disabled" %> >
+            <span>Next Page</span> <span class="icon"><i class="fas fa-chevron-right"></i></span>
+        </a>
+  </nav>
+<% } %>

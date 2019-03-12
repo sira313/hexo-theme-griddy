@@ -1,0 +1,45 @@
+<nav class="navbar is-fixed-top is-white" role="navigation" aria-label="main navigation">
+    <div class="container">
+        <div class="navbar-brand">
+            <a class="navbar-item" href="<%- config.root %>">
+                <img src="<%= url_for(theme.logo) %>" height="28" alt="logo">
+            </a>
+            <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+            </a>
+        </div>
+        <div id="navbarBasicExample" class="navbar-menu">
+            <div class="navbar-start">
+                <% Object.keys(theme.menu).forEach(function(key) { %>
+                    <a class="navbar-item" href="<%= theme.menu[key] %>">
+                    <!-- <span class="icon"><i class="fas fa-<%= key.toLowerCase() %>"> </i></span> -->
+                    &nbsp;<%= key %> </a>
+                <% }) %>
+                <% if (site.categories.length){ %>
+                <div class="navbar-item has-dropdown is-hoverable">
+                    <a class="navbar-link">Categories</a>
+                    <div class="navbar-dropdown">
+                        <%- list_categories({ separator: '', show_count:false, style: 'a', class: 'navbar-item ' }) %>
+                    </div>
+                </div>
+                <% } %>
+            </div>
+            <div class="navbar-end">
+                <div class="navbar-item">
+                    <div class="field is-grouped">
+                        <p class="control">
+                            <% Object.keys(theme.social).forEach(function(key) { %>
+                            <% if (key == 'email'){ %>
+                                <a class="button has-transparent-bg" href="mailto:<%= theme.social[key] %>?" title="<%=key.trim()%>"> <span class="icon"><i class="fas fa-envelope"></i> </span></a>
+                            <% } else {%>
+                                <a class="button has-transparent-bg" href="<%= theme.social[key] %>"><span class="icon"> <i class="fab fa-<%= key.toLowerCase() %>"></i> </span></a>
+                            <% }%>
+                            <% }) %>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</nav>

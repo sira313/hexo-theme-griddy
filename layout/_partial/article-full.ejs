@@ -1,0 +1,48 @@
+<section class="hero">
+  <div class="hero-head" style="padding-top:10px">
+    <%- partial("article-nav.ejs") %>
+  </div>
+  <div class="hero-body">
+    <div class="box" style="padding:0.9rem">
+      <div class="columns">
+        <div class="column is-two-thirds has-scroll">
+          <figure class="image">
+            <!-- Gallery -->
+            <% if (item.photos && item.photos.length){ %>
+                <%- partial('gallery') %>
+            <% } %>
+          </figure>
+        </div>
+        <div class="column has-scroll">
+          <div class="media">
+            <figure class="media-left">
+              <p class="image is-48x48">
+                <img class="is-rounded" src="<%= url_for(theme.logo) %>" alt="Image">
+              </p>
+            </figure>
+            <div class="media-content">
+              <div class="content">
+                <h1 class="title is-4"><%- item.title || theme.default_post_title || "Untitled" %></h1>
+                <h2 class="subtitle is-size-7 has-text-grey">
+                  <span class="icon is-small"><i class="fas fa-calendar"></i></span> <%= item.date.format(config.date_format) %>
+                  &nbsp;
+                  <span class="icon is-small"><i class="fas fa-user"></i></span> <%- item.author ? item.author : config.author  %>
+                </h2>
+              </div>
+            </div>
+          </div>
+          <div class="content">
+            <br>
+            <%- item.content %>
+            <!-- Tags -->
+            <%- partial('article-tags') %>
+            <%- partial("_partial/comments.ejs") %>
+          </div>
+          <div class="content-footer">
+            <!-- footer here -->
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

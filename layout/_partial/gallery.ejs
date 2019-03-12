@@ -1,0 +1,12 @@
+
+<div class="gallery-container">
+    <% if (item.photos.length){ %>
+        <% item.photos.forEach(function(photo){ %>
+            <div class="picture-container">
+                <a href="<%- photo %>" data-fancybox="gallery">
+                    <img src="<%- photo %>" class="img-thumbnail" alt=""/>
+                </a>
+            </div>
+        <% }); %>
+    <% } %>
+</div>

@@ -1,0 +1,10 @@
+<% if (item.tags && item.tags.length){ %>
+<%
+    var tags = [];
+    item.tags.forEach(function(tag){
+        tags.push('<a href="' + config.root + tag.path + '"><span class="tag is-normal is-white has-text-grey"># ' + tag.name + '</span></a>');
+    });
+%>
+    <%- tags.join(' ') %>
+
+<% } %>

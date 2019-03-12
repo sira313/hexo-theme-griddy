@@ -1,0 +1,48 @@
+menu:
+  Home: /
+
+# Default post title
+default_post_title: Untitled
+
+# Default post cover index page
+default_cover_index: "/img/seira.jpg"
+
+favicon: /img/favicon.png
+logo: img/logo.svg #logo in header
+profilpic: /img/450x450/seira.jpg
+author: #name author in post (default)
+
+comments:
+  # Disqus comments
+  # disqus_shortname:
+  # Facebook comments
+  #facebook:
+    #appid: 558386947954045
+    #comment_count: 5
+    #comment_colorscheme: light
+  # Valine comments https://valine.js.org
+  valine:
+    appid:  6jbQfaaH3EJezmsqw43NCcNa-gzGzoHsz
+    appkey:  5AsBAiusJURpbNDHTP4LHwA6
+    notify: false # true/false:mail notify !!!Test,Caution. https://github.com/xCss/Valine/wiki/Valine-%E8%AF%84%E8%AE%BA%E7%B3%BB%E7%BB%9F%E4%B8%AD%E7%9A%84%E9%82%AE%E4%BB%B6%E6%8F%90%E9%86%92%E8%AE%BE%E7%BD%AE
+    verify: false # true/false:verify code
+    avatar: mm # avatar style https://github.com/xCss/Valine/wiki/avatar-setting-for-valine
+    placeholder: Leave comment # comment box placeholder
+    
+google_analytics: UA-128493937-1
+
+# if u want add more profile media social (icon same as Fontawesome)
+#  just add name ex : Instagram: https://www.instagram.com/you/
+social:
+  Gitlab: https://gitlab.com/sira313
+  Twitter: https://twitter.com/aflasio
+  Facebook: https://facebook.com/aflasio.art
+  #Google-plus: https://plus.google.com/104751165505597913805
+  email: mailto:sira.argia@gmail.com
+  #Instagram: https://www.instagram.com/you/
+
+# Code Highlight theme
+# Available value:
+#    default | normal | night | night eighties | night blue | night bright
+# https://github.com/chriskempson/tomorrow-theme
+highlight_theme: night eighties
