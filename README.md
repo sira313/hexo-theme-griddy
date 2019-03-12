@@ -4,12 +4,12 @@
 
 I created this theme by combine both of [Goyangin](https://github.com/g3xx/goyangin) and [Magnetic](https://github.com/g3xx/goyangin)
 
-Live Demo : [Aflasio](https://aflasio.netlify.com). <br />
-Demo Post : [Sample Post](https://aflasio.netlify.com/post/pepper-carrot-fanart/). <br />
-This Theme is automatically generate your category by the front matter. <br />
+Live Demo : [Aflasio](https://aflasio.netlify.com). 
+Demo Post : [Sample Post](https://aflasio.netlify.com/post/pepper-carrot-fanart/). 
+This Theme is automatically generate your category by the front matter.
 
-![demo](ss.png)
-![demo2](ss2.png)
+![demo](/images/blog/griddy.png)
+![demo2](/images/blog/griddy2.png)
 
 ### Feature
  - Responsive 
@@ -21,11 +21,15 @@ This Theme is automatically generate your category by the front matter. <br />
 ### Installation
 clone theme
 
-    git clone https://github.com/sira313/hexo-theme-griddy themes/griddy
+```bash
+git clone https://github.com/sira313/hexo-theme-griddy themes/griddy
+```
 
 modify file hexo `_config.yml` site
 
-    theme: griddy
+```bash
+theme: griddy
+```
 
 And, Modify Config Theme in `/themes/griddy/_config.yml`
 ```yaml
@@ -80,13 +84,13 @@ highlight_theme: night eighties
 
 ```
 ### Getting Started with Post
-1. Create Post.`$ hexo new Post "Oh Yeah!"`
-2. Edit File in `source` > `post`
-3. You can load multi images in the header, just like this
-4. Category will autoload to the menu
+1. Create post.`$ hexo new post "Oh Yeah!"`
+2. Edit file in `source` > `post`
+3. Category will autoload to the menu
+4. You can load multi images in the header, just like this
 ```
 ---
-title: Seira
+title: Oh Yeah!
 date: 2018-10-27 00:06:53
 tags: 
   - digipaint
