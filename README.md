@@ -111,12 +111,13 @@ Here's the caption or description of your photos/
 ```
 ### Notes
 
-- Your another page layout is not going to show as good because i still working on it.
+- `update`
+  Page now have it's own layout
 - Maybe you have to create your own using html + bulma and import it useing ejs. My sample is on `layout` > `partial` > `headers.ejs`
 
 ### TODO
 
-- [ ] Improve layout for another page
+- [x] Improve layout for another page
 - [ ] Show post as modal
 
 ### Version Logs

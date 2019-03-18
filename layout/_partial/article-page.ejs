@@ -1,0 +1,23 @@
+<section class="hero">
+  <div class="hero-head" style="padding-top:10px">
+    <%- partial("article-nav.ejs") %>
+  </div>
+  <div class="hero-body">
+    <div class="box" style="padding:0.9rem">
+      <div class="columns">
+        <div class="column has-scroll">
+          <div class="content">
+            <br>
+            <%- item.content %>
+            <!-- Tags -->
+            <%- partial('article-tags') %>
+            <%- partial("_partial/comments.ejs") %>
+          </div>
+          <div class="content-footer">
+            <!-- footer here -->
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
