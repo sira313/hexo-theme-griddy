@@ -1,6 +1,6 @@
 <%- partial('_partial/menu') %>
 <%- partial('_partial/header') %>
-<div class="columns is-multiline main is-mobile">
+<div class="columns is-multiline main is-mobile has-margin-0">
     <% page.posts.each(function(item){ %>
         <%- partial('_partial/article-excerpt', {item: item}) %>
     <% }); %>

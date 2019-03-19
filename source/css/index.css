@@ -131,6 +131,13 @@ h6, .h6 {
   }
 }
 
+@media screen and (max-width: 768px) {
+.has-margin-0 {
+    margin-right: 0;
+    margin-left: 0;
+  }
+}
+
 
 /* Theme: Solarized - Github
  * More theme here: http://softwaremaniacs.org/media/soft/highlight/test.html
