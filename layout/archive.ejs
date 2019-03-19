@@ -1,7 +1,7 @@
 <%- partial('_partial/menu') %>
 <%- partial('_partial/header') %>
 <% var i = 0; %>
-<div class="columns is-multiline main">
+<div class="columns is-multiline main is-mobile">
     <% page.posts.each(function(item){ i++ %>
         <%- partial('_partial/article-archive', {item: item}) %>
     <% }); %>
