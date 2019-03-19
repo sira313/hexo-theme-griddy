@@ -4,9 +4,9 @@
 
 I created this theme by combine both of [Goyangin](https://github.com/g3xx/goyangin) and [Magnetic](https://github.com/klugjo/hexo-theme-magnetic) with bulma framework
 
-Live Demo : [Aflasio](https://hexo-theme-griddy.netlify.com). 
+### [Live Demo](https://hexo-theme-griddy.netlify.com). 
 
-Demo Post : [Sample Post](https://hexo-theme-griddy.netlify.com/post/pepper-carrot-fanart/). 
+### [Sample Post](https://hexo-theme-griddy.netlify.com/post/pepper-carrot-fanart/). 
 This Theme is automatically generate your category by the front matter.
 
 ![demo](mockup.jpg)
