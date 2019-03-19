@@ -36,17 +36,18 @@ And, Modify Config Theme in `/themes/griddy/_config.yml`
 ```yaml
 menu:
   Home: /
+  About: /about #you need to creat about page first
 
 # Default post title
 default_post_title: Untitled
 
 # Default post cover index page
-default_cover_index: "/img/seira.jpg"
+default_cover_index: "/img/seira.jpg" #cover index is for image thumnail on your gallery using square ratio, you need to crop your photos manually
 
-favicon: /img/favicon.png
-logo: img/logo.svg #logo in header
+favicon: /img/favicon.png #use transparent BG, more small more good
+logo: img/logo.svg #logo in the header also in the menu
 profilpic: /img/450x450/seira.jpg
-author: #name author in post (default)
+author: Aflasio #name author in post (default)
 
 comments:
   # Disqus comments
