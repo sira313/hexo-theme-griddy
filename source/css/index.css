@@ -122,6 +122,15 @@ h6, .h6 {
   }
 }
 
+@media screen and (max-width: 768px) {
+.is-gapless-mobile {
+    padding-top: 0;
+    padding-left: 0;
+    padding-right: 0;
+    padding-bottom: 0;
+  }
+}
+
 
 /* Theme: Solarized - Github
  * More theme here: http://softwaremaniacs.org/media/soft/highlight/test.html
