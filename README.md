@@ -10,6 +10,7 @@ Demo Post : [Sample Post](https://hexo-theme-griddy.netlify.com/post/pepper-carr
 This Theme is automatically generate your category by the front matter.
 
 ![demo](mockup.jpg)
+[mockup template](https://www.freepik.com/free-psd/laptop-mobile-mock-up-design_1053178.htm)
 
 ### Feature
  - Responsive 
