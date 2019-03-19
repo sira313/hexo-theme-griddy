@@ -63,23 +63,3 @@ document.addEventListener('DOMContentLoaded', function () {
   }
 
 });
-
-// share
-var value = document.getElementById("cur").value;
-if (value !== ""){
-    var u  = document.getElementById('share');
-    u.onmouseover = function() {
-        document.getElementById("shared").style.display = 'block';
-    }
-    u.onmouseout = function() {
-        document.getElementById("shared").style.display = 'none';
-    }
-    var al = document.getElementById('shared').getElementsByTagName('a');
-    for (var i=0; i<al.length; i++){
-        al[i].setAttribute('target', '_blank');
-    }
-    document.getElementById('fb').setAttribute("href", "https://www.facebook.com/sharer.php?u="+value);
-    document.getElementById('tw').setAttribute("href", "https://twitter.com/intent/tweet?url="+value);
-    document.getElementById('gp').setAttribute("href", "https://plus.google.com/share?url="+value);
-    document.getElementById('pt').setAttribute("href", "http://pinterest.com/pin/create/button/?url="+value);
-}
