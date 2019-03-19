@@ -9,8 +9,7 @@ Live Demo : [Aflasio](https://hexo-theme-griddy.netlify.com).
 Demo Post : [Sample Post](https://hexo-theme-griddy.netlify.com/post/pepper-carrot-fanart/). 
 This Theme is automatically generate your category by the front matter.
 
-![demo](ss.png)
-![demo2](ss2.png)
+![demo](mockup.jpg)
 
 ### Feature
  - Responsive 
