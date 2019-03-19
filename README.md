@@ -34,20 +34,22 @@ theme: griddy
 
 And, Modify Config Theme in `/themes/griddy/_config.yml`
 ```yaml
+# THIS IS MY SAMPLE CONFIG, YOU NEED TO MODIFY TO YOURS
+
 menu:
   Home: /
-  About: /about #you need to creat about page first
+  About: /about #you need to create "about" page first
 
 # Default post title
-default_post_title: Untitled
+default_post_title: Untitled #default post title will automatically show if you forgot to write the title of your post
 
 # Default post cover index page
-default_cover_index: "/img/seira.jpg" #cover index is for image thumnail on your gallery using square ratio, you need to crop your photos manually
+default_cover_index: "/img/seira.jpg" #default cover index will automatically show if you forgot to set up the cover index on your post. This is using square ratio, change to your picture path
 
-favicon: /img/favicon.png #use transparent BG, more small more good
-logo: img/logo.svg #logo in the header also in the menu
-profilpic: /img/450x450/seira.jpg
-author: Aflasio #name author in post (default)
+favicon: /img/favicon.png #favicon is for your logo on the tab's browser. use transparent BG, more small more good.
+logo: img/logo.svg #logo show in the menu and header
+profilpic: /img/450x450/seira.jpg #profil pic will show on the left side of the post's title
+author: Sira Argia #name author in post (default)
 
 comments:
   # Disqus comments
@@ -59,24 +61,24 @@ comments:
     #comment_colorscheme: light
   # Valine comments https://valine.js.org
   valine:
-    appid:  #your leancloud appid
-    appkey:  #yourleancloud appkey
-    notify: false # true/false:mail notify !!!Test,Caution.
+    appid:  6jbQfaaH3EJezmsqw43NCcNa-gzGzoHsz
+    appkey:  5AsBAiusJURpbNDHTP4LHwA6
+    notify: false # true/false:mail notify !!!Test,Caution. https://github.com/xCss/Valine/wiki/Valine-%E8%AF%84%E8%AE%BA%E7%B3%BB%E7%BB%9F%E4%B8%AD%E7%9A%84%E9%82%AE%E4%BB%B6%E6%8F%90%E9%86%92%E8%AE%BE%E7%BD%AE
     verify: false # true/false:verify code
     avatar: mm # avatar style https://github.com/xCss/Valine/wiki/avatar-setting-for-valine
     placeholder: Leave comment # comment box placeholder
     
-google_analytics: #your google analytics
+google_analytics: UA-128493937-1 #get your google analytic on https://analytics.google.com/analytics
 
-# if u want add more profile media social (icon same as Fontawesome)
+# if u want add more profile media social (icon same as Fontawesome 5)
 #  just add name ex : Instagram: https://www.instagram.com/you/
 social:
-  Gitlab: https://gitlab.com/yourname
-  Twitter: https://twitter.com/yourname
-  Facebook: https://facebook.com/yourname
-  #Google-plus: https://plus.google.com/104751165505597913805 i don't event know why i keep this, i just love g+ forever
+  Gitlab: https://gitlab.com/sira313
+  Twitter: https://twitter.com/aflasio
+  Facebook: https://facebook.com/aflasio.art
+  #Google-plus: https://plus.google.com/104751165505597913805
   email: mailto:sira.argia@gmail.com
-  #Instagram: https://www.instagram.com/yourname
+  #Instagram: https://www.instagram.com/you/
 
 # Code Highlight theme
 # Available value:
