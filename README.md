@@ -1,6 +1,6 @@
 ## Hexo Theme Griddy
 
-> A hexo theme for artist gallery or portfolio sample
+### "A hexo theme for artist gallery or portfolio sample"
 
 I created this theme by combine both of [Goyangin](https://github.com/g3xx/goyangin) and [Magnetic](https://github.com/klugjo/hexo-theme-magnetic) with bulma framework
 
