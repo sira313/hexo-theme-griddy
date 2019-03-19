@@ -2,7 +2,7 @@
 
 > A hexo theme for artist gallery or portfolio sample
 
-I created this theme by combine both of [Goyangin](https://github.com/g3xx/goyangin) and [Magnetic](https://github.com/g3xx/goyangin)
+I created this theme by combine both of [Goyangin](https://github.com/g3xx/goyangin) and [Magnetic](https://github.com/klugjo/hexo-theme-magnetic)
 
 Live Demo : [Aflasio](https://hexo-theme-griddy.netlify.com). 
 
