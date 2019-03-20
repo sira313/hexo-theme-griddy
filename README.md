@@ -122,6 +122,7 @@ Here's the caption or description of your photos/
 
 - [x] Improve layout for another page
 - [x] Show post as modal
+- [ ] Push browser history to modal post
 - [ ] Improve disqus and facebook comment
 
 ### Version Logs
