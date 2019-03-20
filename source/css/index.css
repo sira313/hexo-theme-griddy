@@ -144,6 +144,11 @@ h6, .h6 {
   }
 }
 
+/* fancybox */
+iframe {
+  width: 80%;
+  height: 250px;
+}
 
 /* Theme: Solarized - Github
  * More theme here: http://softwaremaniacs.org/media/soft/highlight/test.html

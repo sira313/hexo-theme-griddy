@@ -121,7 +121,8 @@ Here's the caption or description of your photos/
 ### TODO
 
 - [x] Improve layout for another page
-- [ ] Show post as modal
+- [x] Show post as modal
+- [ ] Improve disqus and facebook comment
 
 ### Version Logs
 

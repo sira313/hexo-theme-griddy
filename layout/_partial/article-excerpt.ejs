@@ -1,7 +1,7 @@
 <div class="column is-one-quarter-fullhd is-one-third-desktop is-one-third-tablet is-one-third-mobile is-gapless-mobile">
     <div class="card work has-box-shadow">
         <figure class="image is-square">
-            <a href="<%- config.root %><%- item.path %>">
+            <a data-fancybox data-type="ajax" data-src="<%- config.root %><%- item.path %> #modal" href="javascript:;">
             <img src="<%- item.cover_index || theme.default_cover_index %>" class="media" alt=""/>
             <div class="caption">
                 <div class="work_title">
