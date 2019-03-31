@@ -1,23 +1,15 @@
-<section class="hero">
-  <div class="hero-head" style="padding-top:10px">
-    <%- partial("article-nav.ejs") %>
-  </div>
+<%- partial('_partial/menu') %>
+<section class="hero is-fullheight is-fullheight-with-navbar">
   <div class="hero-body">
-    <div class="box" style="padding:0.9rem">
-      <div class="columns">
-        <div class="column has-scroll">
-          <div class="content">
-            <br>
-            <%- item.content %>
-            <!-- Tags -->
-            <%- partial('article-tags') %>
-            <%- partial("_partial/comments.ejs") %>
-          </div>
-          <div class="content-footer">
-            <!-- footer here -->
-          </div>
-        </div>
-      </div>
+    <div class="content">
+      <br>
+      <%- item.content %>
+      <!-- Tags -->
+      <%- partial('article-tags') %>
+      <%- partial("_partial/comments.ejs") %>
+    </div>
+    <div class="content-footer">
+      <!-- footer here -->
     </div>
   </div>
 </section>
