@@ -1,9 +1,13 @@
 <%- partial('_partial/menu') %>
 <section class="hero is-fullheight is-fullheight-with-navbar" style="margin-top:3.25rem">
   <div class="hero-body">
-    <div class="box has-box-shadow" style="padding:0.9rem;margin-bottom: 0;">
-      <div class="content">
-        <br>
+    <div class="box has-bg-shadow" style="padding-left:0;padding-right:0;padding-top:0;padding-bottom:1.1rem;">
+      <div class="media">
+        <figure class="image">
+          <img src="<%= url_for(theme.cover_page) %>" style="border-top-left-radius:6px;border-top-right-radius:6px;">
+        </figure>
+      </div>
+      <div class="content content-box">
         <%- item.content %>
         <!-- Tags -->
         <%- partial('article-tags') %>

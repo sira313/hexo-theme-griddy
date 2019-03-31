@@ -179,6 +179,12 @@ h6, .h6 {
   bottom: 4rem;
 }
 
+/* content for page */
+.content-box {
+  padding: 0.9rem;
+  margin-top: 24px;
+}
+
 /* Theme: Solarized - Github
  * More theme here: http://softwaremaniacs.org/media/soft/highlight/test.html
  */
