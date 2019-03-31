@@ -106,6 +106,12 @@ h6, .h6 {
     border-top: 1px solid #bfbbbb;
 }
 
+@media screen and (max-width: 900px) {
+.main .work a:hover .caption {
+  display: none;
+  }
+}
+
 @media screen and (max-width: 768px) {
 .main .work .caption h1 {
   font-size: 2.5vw;
