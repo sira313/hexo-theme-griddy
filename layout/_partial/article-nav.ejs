@@ -1,5 +1,5 @@
 <% var titlePrevious, titleNext %>
-<nav class="pagination is-centered" role="navigation" aria-label="pagination">
+<nav class="pagination is-centered" role="navigation" aria-label="pagination" style="margin-top:10px">
   <% if (item.prev) {
     titlePrevious = item.prev.title || theme.default_post_title;
     titlePrevious = titlePrevious.length > 40 ? (titlePrevious.substring(0,40) + "...") : titlePrevious;
@@ -16,8 +16,4 @@
   <% } else { %>
     <a class="pagination-next" title="This is the very oldest post" disabled>Earlier<span class="icon"><i class="fas fa-chevron-right"></i></a>
     <% } %>
-  <ul class="pagination-list">
-    <li><a class="pagination-link" aria-label="Go back" onclick="history.back()"><span class="icon"><i class="fas fa-backward"></i></span>Back</a></li>
-    <li><a href="<%- config.root %>" class="pagination-link" aria-label="Home"><span class="icon"><i class="fas fa-home"></i></span>Home</a></li>
-  </ul>
-</nav> 
+ </nav> 

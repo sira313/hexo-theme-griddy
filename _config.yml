@@ -12,12 +12,12 @@ default_cover_index: "/img/seira.jpg" #default cover index will automatically sh
 
 favicon: /img/favicon.png #favicon is for your logo on the tab's browser. use transparent BG, more small more good.
 logo: img/logo.svg #logo show in the menu and header
-profilpic: /img/450x450/seira.jpg #profil pic will show on the left side of the post's title
+cover_page: img/cover.jpg
+profile_pic: /img/450x450/seira.jpg #profil pic will show on the left side of the post's title
 author: Sira Argia #name author in post (default)
 
 comments:
-  # Disqus comments
-  # disqus_shortname:
+  #disqus_shortname: aflasio
   # Facebook comments
   #facebook:
     #appid: 558386947954045

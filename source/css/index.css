@@ -48,7 +48,18 @@ h6, .h6 {
   }
 
 .has-box-shadow {
-  box-shadow: 0 0px 10px #0000002d;
+  box-shadow: 0 0px 10px #0000001c;
+}
+
+@media screen and (min-width: 768px) {
+.has-box-shadow {
+    border-radius: 10px;
+  }
+}
+
+/* for navbar */
+.has-bg-shadow {
+  box-shadow: 0 0px 10px #0000001c;
 }
 
 /* button */
@@ -150,10 +161,22 @@ h6, .h6 {
   }
 }
 
-/* fancybox */
-iframe {
-  width: 80%;
-  height: 250px;
+@media screen and (min-width: 768px) {
+.has-rounded-corner {
+    border-radius: 10px;
+  }
+}
+
+/* centered image */
+.has-image-centered {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* image profile_pic */
+
+#profile_pic {
+  bottom: 3rem;
 }
 
 /* Theme: Solarized - Github

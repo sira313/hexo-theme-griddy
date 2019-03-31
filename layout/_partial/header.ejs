@@ -1,7 +1,16 @@
-<section class="hero is-medium">
+<section class="hero" style="margin-top:3.25rem">
   <div class="hero-body has-text-centered">
-    <img class="is-circle" src="<%= url_for(theme.logo) %>" width="128" height="128" alt="">
-    <h1 class="title"> <%= config.title %> </h1>
-    <h2 class="subtitle"> <% if (config.subtitle){ %><%= config.subtitle %><% } %> </h2>
+    <div class="box has-box-shadow" style="padding-left:0;padding-right:0;padding-top:0;padding-bottom:0.9rem;">
+      <div class="media">
+        <figure class="image">
+          <img src="<%= url_for(theme.cover_page) %>" style="border-top-left-radius:10px;border-top-right-radius:10px;">
+        </figure>
+      </div>
+      <figure id="profile_pic" class="image is-128x128 has-image-centered">
+        <img class="is-rounded has-bg-shadow" src="<%= url_for(theme.profile_pic) %>" width="128" height="128" alt="">
+        <h1 class="title" style="margin-top:5px;"> <%= config.title %> </h1>
+      </figure>
+      <h2 class="subtitle"> <% if (config.description){ %><%= config.description %><% } %> </h2>
+    </div>
   </div>
 </section>
