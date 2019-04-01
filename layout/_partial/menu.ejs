@@ -32,7 +32,7 @@
                         <p class="control">
                             <% Object.keys(theme.social).forEach(function(key) { %>
                             <% if (key == 'email'){ %>
-                                <a class="button has-transparent-bg" href="mailto:<%= theme.social[key] %>?" title="<%=key.trim()%>"> <span class="icon"><i class="fas fa-envelope"></i> </span></a>
+                                <a class="button has-transparent-bg" href="<%= theme.social[key] %>" title="<%=key.trim()%>"> <span class="icon"><i class="fas fa-envelope"></i> </span></a>
                             <% } else {%>
                                 <a class="button has-transparent-bg" href="<%= theme.social[key] %>"><span class="icon"> <i class="fab fa-<%= key.toLowerCase() %>"></i> </span></a>
                             <% }%>
