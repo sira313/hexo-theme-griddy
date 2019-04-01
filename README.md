@@ -118,8 +118,7 @@ Here's the caption or description of your photos/
 ### Notes
 
 - `update`
-  Page now have it's own layout
-- Maybe you have to create your own using html + bulma and import it useing ejs. My sample is on `layout` > `partial` > `headers.ejs`
+  Page now have it's own layout 
 
 ### TODO
 
