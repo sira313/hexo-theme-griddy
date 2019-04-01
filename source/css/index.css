@@ -183,6 +183,15 @@ h6, .h6 {
 }
 }
 
+code {
+    font-size: 15px;
+    display: inline-block;
+    font-family: "Raleway", sans-serif;
+    font-weight: 400;
+    background-color: #f7f8f8;
+    padding: 0 10px;
+}
+
 /* Theme: Solarized - Github
  * More theme here: http://softwaremaniacs.org/media/soft/highlight/test.html
  */
