@@ -1,4 +1,21 @@
-/* global */
+/* scrollbar style on chrome & opera */
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent; 
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(0, 0, 0, 0.274); 
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(0, 0, 0, 0.459); 
+}
+
+/* scrollbar for firefox */
 html {
   overflow-x: hidden;
   scrollbar-width: thin;
@@ -18,27 +35,7 @@ h6, .h6 {
     font-family: 'Raleway', sans-serif;
 }
 
-/* width */
-::-webkit-scrollbar {
-  width: 2px;
-}
-
-/* Track */
-::-webkit-scrollbar-track {
-  background: transparent; 
-}
- 
-/* Handle */
-::-webkit-scrollbar-thumb {
-  background: rgba(0, 0, 0, 0.055); 
-}
-
-/* Handle on hover */
-::-webkit-scrollbar-thumb:hover {
-  background: rgba(0, 0, 0, 0.158); 
-}
-
-/* custom */
+/* custom bulma */
 /* for box */
 .has-shadow-hover {
   transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
@@ -120,12 +117,6 @@ h6, .h6 {
 @media screen and (max-width: 900px) {
 .main .work a:hover .caption {
   display: none;
-  }
-}
-
-@media screen and (max-width: 768px) {
-.main .work .caption h1 {
-  font-size: 2.5vw;
   }
 }
 
