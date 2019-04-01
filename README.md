@@ -35,7 +35,10 @@ Modify file hexo `_config.yml` site
 theme: griddy
 ```
 
-And, Modify the `Config Theme` in `/themes/griddy/_config.yml`
+### SIte Settings
+
+Modify the `Config Theme` in `/themes/griddy/_config.yml`
+
 ```yaml
 # THIS IS MY SAMPLE CONFIG, YOU NEED TO MODIFY TO YOURS
 
