@@ -2,7 +2,7 @@
 
 ### "A hexo theme for artist gallery or portfolio sample"
 
-This theme is created by combine both of [Goyangin](https://github.com/g3xx/goyangin) and [Magnetic](https://github.com/klugjo/hexo-theme-magnetic) using ejs and bulma framework
+This theme is created by combine both of [Goyangin](https://github.com/g3xx/goyangin) and [Magnetic](https://github.com/klugjo/hexo-theme-magnetic) using ejs and bulma framework. Inspired by [Procreate Showcase website](https://procreate.art/showcase).
 
 ### [Live Demo](https://hexo-theme-griddy.netlify.com)
 
@@ -13,17 +13,20 @@ This Theme is automatically generate your category by the front matter.
 [mockup template](https://www.freepik.com/free-psd/laptop-mobile-mock-up-design_1053178.htm)
 
 ### Feature
- - Responsive 
+ - Responsive and clean
  - Google Analytics
  - SEO
  - Disqus, Facebook, or Valine comment
- - Gallery with fancybox
+ - Photos with fancybox
  - Grid
 ### Installation
-Clone the theme
+
+[Install hexo first](https://hexo.io/)
+
+Go to your hexo directory then clone the theme
 
 ```bash
-git clone https://github.com/sira313/hexo-theme-griddy themes/griddy
+git clone https://github.com/sira313/hexo-theme-griddy themes/griddy && cd themes/griddy && git pull && rm -rf .git
 ```
 
 Modify file hexo `_config.yml` site
@@ -32,7 +35,7 @@ Modify file hexo `_config.yml` site
 theme: griddy
 ```
 
-And, Modify Config Theme in `/themes/griddy/_config.yml`
+And, Modify the `Config Theme` in `/themes/griddy/_config.yml`
 ```yaml
 # THIS IS MY SAMPLE CONFIG, YOU NEED TO MODIFY TO YOURS
 
@@ -44,16 +47,16 @@ menu:
 default_post_title: Untitled #default post title will automatically show if you forgot to write the title of your post
 
 # Default post cover index page
-default_cover_index: "/img/seira.jpg" #default cover index will automatically show if you forgot to set up the cover index on your post. This is using square ratio, change to your picture path
+default_cover_index: "/img/seira.jpg" #default cover index will automatically show on the index if you forgot to set up the cover index on your post. This is using square ratio on max 450x450px, change to your picture path
 
 favicon: /img/favicon.png #favicon is for your logo on the tab's browser. use transparent BG, more small more good.
-logo: img/logo.svg #logo show in the menu and header
-profilpic: /img/450x450/seira.jpg #profil pic will show on the left side of the post's title
+logo: img/logo.svg #logo show in the menu and header, don't use too much large size, for better performance
+cover_page: img/cover.jpg #this will show on your landing page, better use ratio 16:9 on max 1500px wide
+profile_pic: /img/450x450/seira.jpg #profil pic will show on the left side of the post's title, better use ratio 1:1 on max 450x450px
 author: Sira Argia #name author in post (default)
 
 comments:
-  # Disqus comments
-  # disqus_shortname:
+  #disqus_shortname: aflasio
   # Facebook comments
   #facebook:
     #appid: 558386947954045
@@ -120,10 +123,7 @@ Here's the caption or description of your photos/
 
 ### TODO
 
-- [x] Improve layout for another page
-- [ ] Show post as modal
-- [ ] Push browser history to modal post
-- [ ] Improve comments on the modal post
+- [ ] Improve for better audit and performace
 
 ### Version Logs
 
