@@ -185,6 +185,13 @@ h6, .h6 {
   margin-top: 24px;
 }
 
+@media screen and (min-width: 700px) {
+  .content-box {
+  padding: 2rem;
+  margin-top: 24px;
+}
+}
+
 /* Theme: Solarized - Github
  * More theme here: http://softwaremaniacs.org/media/soft/highlight/test.html
  */
