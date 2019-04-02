@@ -125,6 +125,7 @@ Here's the caption or description of your photos/
 ### TODO
 
 - [ ] Improve for better audit and performace
+- [ ] Add skeleton screen
 
 ### Version Logs
 
