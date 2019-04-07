@@ -10,9 +10,9 @@
     <% } else if (config.description){ %>
         <meta name="description" content="<%= config.description %>">
     <% } else if (page.excerpt){ %>
-        <meta name="description" content="<%= strip_html(page.excerpt).replace(/^\s*/, '').replace(/\s*$/, '') %>">
-    <% } else if (page.content){ %>
-        <meta name="description" content="<%= strip_html(page.content).replace(/^\s*/, '').replace(/\s*$/, '').substring(0, 150) %>">
+        <meta name="keyword" content="<%= page.keywords %>">   
+    <% } else if (page.excerpt){ %>
+        <meta name="keyword" content="<%= config.keywords %>">  
     <% } %>
 
     <!-- color -->
