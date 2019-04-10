@@ -10,6 +10,8 @@
     <meta name="description" content="<%= strip_html(page.excerpt).replace(/^\s*/, '').replace(/\s*$/, '') %>">
 <% } else if (page.content){ %>
     <meta name="description" content="<%= strip_html(page.content).replace(/^\s*/, '').replace(/\s*$/, '').substring(0, 150) %>">
+<% } else if (page.content){ %>
+    <meta name="description" content="<%= strip_html(list_categories).replace(/^\s*/, '').replace(/\s*$/, '').substring(0, 150) %>">
 <% } %>
 <!-- color -->
 <meta name="theme-color" content="#ffffff">
