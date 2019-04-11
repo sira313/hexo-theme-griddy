@@ -174,13 +174,11 @@ h6, .h6 {
 /* content for page */
 .content-box {
   padding: 0.9rem;
-  margin-top: 24px;
 }
 
 @media screen and (min-width: 700px) {
   .content-box {
   padding: 2rem;
-  margin-top: 24px;
 }
 }
 
