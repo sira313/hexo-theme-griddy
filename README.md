@@ -8,7 +8,7 @@ This theme is created by combine both of [Goyangin](https://github.com/g3xx/goya
 
 This Theme is automatically generate your category by the front matter.
 
-![demo](mockup.jpg)
+![demo](https://cdn.statically.io/img/github.com/sira313/hexo-theme-griddy/raw/master/mockup.jpg)
 [mockup template](https://www.freepik.com/free-psd/laptop-mobile-mock-up-design_1053178.htm)
 
 ### Feature
