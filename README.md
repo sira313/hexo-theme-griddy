@@ -19,7 +19,7 @@ This Theme is automatically generate your category by the front matter.
  - Photos with fancybox
  - Grid
 
-### [Read The Installation Instruction Here](https://github.com/sira313/hexo-theme-griddy/wiki)
+### [Read The Installation Instruction Here](https://github.com/sira313/hexo-theme-griddy/wiki/Installation-Instruction)
 
 ### [Project Progress](https://github.com/sira313/hexo-theme-griddy/projects/1)
 ### Version Logs
