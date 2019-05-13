@@ -19,10 +19,7 @@ This Theme is automatically generate your category by the front matter.
  - Photos with fancybox
  - Grid
 
-### Notes
-
-- `update`
-  Page now have it's own layout 
+### [Read The Installation Instruction Here](https://github.com/sira313/hexo-theme-griddy/wiki)
 
 ### TODO
 
@@ -31,8 +28,12 @@ This Theme is automatically generate your category by the front matter.
 
 ### Version Logs
 
-- This maybe Beta Version 
-> I am so sorry if you find any trouble 'cause for the real i just copy paste the script.
+**Beta 0.0.1**
+- Credit footer automatically generate by blog's title
+- Different layout for another page
+- Fancybox for photos
+
+> I am so sorry if you find any trouble 'cause for the real i just copy paste the script, my background is not a web developper.
 ### Support Me
 
-[![](https://i.ibb.co/BKRhBpK/paypal-donate-button-high-quality-png.png)](https://paypal.me/aflasio)
+[![donate](https://i.ibb.co/BKRhBpK/paypal-donate-button-high-quality-png.png)](https://paypal.me/aflasio)
