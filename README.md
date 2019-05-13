@@ -21,6 +21,7 @@ This Theme is automatically generate your category by the front matter.
 
 ### [Read The Installation Instruction Here](https://github.com/sira313/hexo-theme-griddy/wiki)
 
+### [Project Progress](https://github.com/sira313/hexo-theme-griddy/projects/1)
 ### Version Logs
 
 **Beta 0.0.1**
