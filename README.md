@@ -2,7 +2,7 @@
 
 ### "A hexo theme for artist gallery or portfolio sample"
 
-This theme is created by combine both of [Goyangin](https://github.com/g3xx/goyangin) and [Magnetic](https://github.com/klugjo/hexo-theme-magnetic) using ejs and bulma framework. Inspired by [Procreate Showcase website](https://procreate.art/showcase).
+This theme is created by combine both of [Goyangin](https://github.com/g3xx/goyangin) and [Magnetic](https://github.com/klugjo/hexo-theme-magnetic) using ejs and bulma framework. Inspired by [Procreate Showcase website](https://procreate.art/showcase) and [Instagram Profile](https://www.instagram.com/kanashkova.lera/) look-alike.
 
 ### [Live | Demo](https://aflasio.netlify.com)
 
