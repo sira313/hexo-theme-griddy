@@ -17,7 +17,7 @@ This Theme is automatically generate your category by the front matter.
  - SEO
  - Disqus, Facebook, or Valine comment
  - Photos with fancybox
- - Grid
+ - Grid (3 columns mobile, tablet, desktop, and 4 columns for large desktop)
 
 ### [Read The Installation Instruction Here](https://github.com/sira313/hexo-theme-griddy/wiki/Installation-Instruction)
 
