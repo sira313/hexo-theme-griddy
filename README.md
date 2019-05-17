@@ -2,13 +2,13 @@
 
 ### "A hexo theme for artist gallery or portfolio sample"
 
-This theme is created by combine both of [Goyangin](https://github.com/g3xx/goyangin) and [Magnetic](https://github.com/klugjo/hexo-theme-magnetic) using ejs and bulma framework. Inspired by [Procreate Showcase website](https://procreate.art/showcase).
+This theme is created by combine both of [Goyangin](https://github.com/g3xx/goyangin) and [Magnetic](https://github.com/klugjo/hexo-theme-magnetic) using ejs and bulma framework. Inspired by [Procreate Showcase website](https://procreate.art/showcase) and [Instagram Profile](https://www.instagram.com/kanashkova.lera/) look-alike.
 
 ### [Live | Demo](https://aflasio.netlify.com)
 
 This Theme is automatically generate your category by the front matter.
 
-![demo](mockup.jpg)
+![demo](https://cdn.statically.io/img/github.com/sira313/hexo-theme-griddy/raw/master/mockup.jpg)
 [mockup template](https://www.freepik.com/free-psd/laptop-mobile-mock-up-design_1053178.htm)
 
 ### Feature
@@ -17,7 +17,7 @@ This Theme is automatically generate your category by the front matter.
  - SEO
  - Disqus, Facebook, or Valine comment
  - Photos with fancybox
- - Grid
+ - Grid (3 columns mobile, tablet, desktop, and 4 columns for large desktop)
 
 ### [Read The Installation Instruction Here](https://github.com/sira313/hexo-theme-griddy/wiki/Installation-Instruction)
 
