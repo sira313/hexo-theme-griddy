@@ -41,8 +41,8 @@ h6, .h6 {
   transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
 }
 .has-shadow-hover:hover {
-    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.16), 0 6px 6px rgba(0, 0, 0, 0.23);
-  }
+    box-shadow: 0 0px 10px #0000001c;
+}
 
 .has-box-shadow {
   box-shadow: 0 0px 10px #0000001c;
@@ -159,6 +159,17 @@ h6, .h6 {
   }
 }
 
+/* content image */
+@media screen and (min-width: 768px) {
+.content img {
+    border-radius: 10px;
+  }
+}
+
+.content img {
+    margin-bottom: 1em;
+}
+
 /* centered image */
 .has-image-centered {
   margin-left: auto;
@@ -173,12 +184,12 @@ h6, .h6 {
 
 /* content for page */
 .content-box {
-  padding: 0.9rem;
+  padding: 0.6rem;
 }
 
 @media screen and (min-width: 700px) {
   .content-box {
-  padding: 2rem;
+  padding: 1rem;
 }
 }
 

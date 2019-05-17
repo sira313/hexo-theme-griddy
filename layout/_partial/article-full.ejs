@@ -19,13 +19,12 @@
           </div>
         </div>
       </div>
-      <figure class="image">
+      <hr style="margin-top: 0; margin-bottom: 0.5em">
+      <div class="content content-box">
         <!-- Gallery -->
         <% if (item.photos && item.photos.length){ %>
             <%- partial('gallery') %>
         <% } %>
-      </figure>
-      <div class="content content-box">
         <%- item.content %>
         <!-- Tags -->
         <%- partial('article-tags') %> 
