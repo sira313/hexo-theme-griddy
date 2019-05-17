@@ -170,6 +170,20 @@ h6, .h6 {
     margin-bottom: 1em;
 }
 
+/* content page padding */
+.has-content-padding {
+  padding: 2rem;
+  margin-bottom: 0;
+}
+
+@media screen and (max-width: 500px) {
+.has-content-padding {
+    padding-left: 1rem;
+    padding-right: 1rem;
+    margin-bottom: 0;
+  }
+}
+
 /* centered image */
 .has-image-centered {
   margin-left: auto;
