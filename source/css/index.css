@@ -170,6 +170,21 @@ h6, .h6 {
     margin-bottom: 1em;
 }
 
+/* title-padding */
+.has-title-padding {
+  padding-left: 16px;
+  padding-right: 16px;
+  padding-top: 16px;
+}
+
+@media screen and (max-width: 700px) {
+.has-title-padding {
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+  }
+}
+
 /* content page padding */
 .has-content-padding {
   padding: 2rem;
