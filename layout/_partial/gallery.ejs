@@ -1,9 +1,10 @@
-<div class="gallery-container columns is-multiline main is-mobile has-margin-0" style="padding-top: 1rem">
+<div class="grid">
     <% if (item.photos.length){ %>
         <% item.photos.forEach(function(photo){ %>
-            <div class="picture-container column is-one-quarter-fullhd is-one-third-desktop is-one-third-tablet is-one-third-mobile is-gapless-mobile">
+            <div class="grid-sizer"></div>
+            <div class="picture-container grid-item">
                 <a href="<%- photo %>" data-fancybox="gallery">
-                    <img src="<%- photo %>" class="img-thumbnail has-rounded-corner has-shadow-hover" alt="gallery"/>
+                    <img src="<%- photo %>" class="img-thumbnail has-shadow-hover" alt="gallery"/>
                 </a>
             </div>
         <% }); %>

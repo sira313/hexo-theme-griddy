@@ -36,6 +36,12 @@ h6, .h6 {
 }
 
 /* custom bulma */
+/* custom content */
+.content blockquote:not(:last-child), .content dl:not(:last-child), .content ol:not(:last-child), .content p:not(:last-child), .content pre:not(:last-child), .content table:not(:last-child), .content ul:not(:last-child) {
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+}
+
 /* for box */
 .has-shadow-hover {
   transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
@@ -166,22 +172,18 @@ h6, .h6 {
   }
 }
 
-.content img {
-    margin-bottom: 1em;
-}
-
 /* title-padding */
 .has-title-padding {
   padding-left: 16px;
   padding-right: 16px;
-  padding-top: 16px;
+  padding-top: 10px;
 }
 
 @media screen and (max-width: 700px) {
 .has-title-padding {
     padding-left: 10px;
     padding-right: 10px;
-    padding-top: 10px;
+    padding-top: 9px;
   }
 }
 
@@ -230,6 +232,37 @@ code {
     background-color: #f7f8f8;
     padding: 0 10px;
 }
+
+/* ---- grid ---- */
+
+.grid {
+  background: white;
+}
+
+/* clear fix */
+.grid:after {
+  content: '';
+  display: block;
+  clear: both;
+}
+
+/* ---- .grid-item ---- */
+
+.grid-sizer,
+.grid-item {
+  width: 33.333%;
+  padding: 5px;
+}
+
+.grid-item {
+  float: left;
+}
+
+.grid-item img {
+  display: block;
+  width: 100%;
+}
+
 
 /* Theme: Solarized - Github
  * More theme here: http://softwaremaniacs.org/media/soft/highlight/test.html
