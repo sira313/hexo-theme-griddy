@@ -24,10 +24,11 @@ This Theme is automatically generate your category by the front matter.
 ### [Project Progress](https://github.com/sira313/hexo-theme-griddy/projects/1)
 ### Version Logs
 
-**Beta 0.0.1**
+**Beta 0.0.2**
 - Credit footer automatically generate by blog's title
 - Different layout for another page
 - Fancybox for photos
+- Masonry view of gallery post
 
 > I am so sorry if you find any trouble 'cause for the real i just copy paste the script, my background is not a web developper.
 ### Support Me
