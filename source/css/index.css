@@ -36,10 +36,10 @@ h6, .h6 {
 }
 
 /* custom bulma */
-/* custom content */
+/* custom post content */
+}
 .content blockquote:not(:last-child), .content dl:not(:last-child), .content ol:not(:last-child), .content p:not(:last-child), .content pre:not(:last-child), .content table:not(:last-child), .content ul:not(:last-child) {
-  margin-top: 0.5em;
-  margin-bottom: 0.5em;
+    margin-top: 1em;
 }
 
 /* for box */
@@ -213,14 +213,10 @@ h6, .h6 {
   bottom: 4rem;
 }
 
-/* content for page */
-.content-box {
-  padding: 0.6rem;
-}
-
 @media screen and (min-width: 700px) {
   .content-box {
-  padding: 1rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
 }
 }
 
