@@ -242,11 +242,17 @@ code {
 }
 
 /* ---- .grid-item ---- */
-
 .grid-sizer,
 .grid-item {
   width: 33.333%;
+  padding: 2px;
+}
+
+@media screen and (min-width: 768px) {
+.grid-sizer,
+.grid-item {
   padding: 5px;
+  }
 }
 
 .grid-item {
