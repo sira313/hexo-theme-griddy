@@ -19,7 +19,7 @@ This Theme is automatically generate your category by the front matter.
  - Photos with fancybox
  - Grid (3 columns mobile, tablet, desktop, and 4 columns for large desktop)
 
-### [Read The Installation Instruction Here](https://github.com/sira313/hexo-theme-griddy/wiki/Installation-Instruction)
+### [Read The Installation Instruction Here](https://github.com/sira313/hexo-theme-griddy/wiki/Installation-and-Settings-Instruction)
 
 ### [Project Progress](https://github.com/sira313/hexo-theme-griddy/projects/1)
 ### Version Logs
