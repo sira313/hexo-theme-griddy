@@ -1,15 +1,11 @@
 <section>
 <% if(page.comments && theme.comments && theme.comments.disqus_shortname){ %>
-    <hr />
-    <h3 class="title is-6"><%- __('comment')%>...</h3>
     <div id="disqus_thread">
         <noscript>Please enable JavaScript to view the <a href="//disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
     </div>
 <% } %>
 
 <% if(page.comments && theme.comments && theme.comments.facebook && theme.comments.facebook.appid) { %>
-    <hr />
-    <h3 class="title is-6"><%- __('comment')%>...</h3>
     <div id="fb-root"></div>
     <script>
         (function(d, s, id) {
@@ -24,8 +20,6 @@
 <% } %>
 
 <% if(page.comments && theme.comments && theme.comments.valine && theme.comments.valine.appid && theme.comments.valine.appkey ){ %>
-    <hr />
-    <h3 class="title is-6"><%- __('comment')%>...</h3>
     <div id="valine"></div>
     <!-- valine comment -->
     <script src="//cdn1.lncld.net/static/js/3.0.4/av-min.js"></script>

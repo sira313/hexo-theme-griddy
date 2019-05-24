@@ -28,12 +28,16 @@
           <%- item.content %>
         </div>
         <!-- Tags -->
-      <div class="tags" style="margin-top: 1em;">
-        <%- partial('article-tags') %> 
-      </div>
-        <%- partial("article-nav.ejs") %> 
-        <%- partial("comments.ejs") %>    
+        <div class="tags" style="margin-top: 1em;">
+          <%- partial('article-tags') %> 
+        </div>
+        <%- partial("article-nav.ejs") %>   
       </div>      
+    </div>       
+  </div>
+  <div class="hero-foot" style="padding-right: 1.5rem;padding-left: 1.5rem;padding-top: 3rem">
+    <div class="box has-box-shadow" style="width: 100%">
+    <%- partial("comments.ejs") %>  
     </div>
   </div>
 </section>
