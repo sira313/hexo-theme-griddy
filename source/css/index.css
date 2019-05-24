@@ -37,8 +37,15 @@ h6, .h6 {
 
 /* custom bulma */
 /* custom post content */
-.content blockquote:not(:last-child), .content dl:not(:last-child), .content ol:not(:last-child), .content p:not(:last-child), .content pre:not(:last-child), .content table:not(:last-child), .content ul:not(:last-child) {
-    margin-top: 1em;
+@media screen and (min-width: 500px) {
+  .content .post p {
+    margin-left: 1em;
+    margin-right: 1em;
+  }
+}
+
+.content .post img {
+  margin-bottom: 1em;
 }
 
 /* for box */

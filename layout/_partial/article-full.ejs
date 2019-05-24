@@ -24,7 +24,9 @@
         <% if (item.photos && item.photos.length){ %>
             <%- partial('gallery') %>
         <% } %>
-        <%- item.content %>
+        <div class="post">
+          <%- item.content %>
+        </div>
         <!-- Tags -->
       <div class="tags" style="margin-top: 1em;">
         <%- partial('article-tags') %> 
