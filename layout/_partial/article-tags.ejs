@@ -2,7 +2,7 @@
 <%
     var tags = [];
     item.tags.forEach(function(tag){
-        tags.push('<a href="' + config.root + tag.path + '"><span class="tag is-normal is-white has-text-info"># ' + tag.name + '</span></a>');
+        tags.push('<a href="' + config.root + tag.path + '"><span class="tag is-medium is-white has-text-link"># ' + tag.name + '</span></a>');
     });
 %>
     <%- tags.join(' ') %>

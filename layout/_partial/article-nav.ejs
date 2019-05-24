@@ -4,16 +4,16 @@
     titlePrevious = item.prev.title || theme.default_post_title;
     titlePrevious = titlePrevious.length > 40 ? (titlePrevious.substring(0,40) + "...") : titlePrevious;
   %>
-  <a href="<%- url_for(item.prev.path) %>" data-title="<%= titlePrevious %>" class="pagination-previous"><span class="icon"><i class="fas fa-chevron-left"></i></span>Latest</a>
+  <a href="<%- url_for(item.prev.path) %>" data-title="<%= titlePrevious %>" class="pagination-previous"><span class="icon"><i class="fas fa-angle-left"></i></i></span>Latest</a>
   <% } else { %>
-    <a class="pagination-previous" title="This is the latest post" disabled><span class="icon"><i class="fas fa-chevron-left"></i></span>Latest</a>
+    <a class="pagination-previous" title="This is the latest post" disabled><span class="icon"><i class="fas fa-angle-left"></i></i></span>Latest</a>
   <% } %>
   <% if (item.next) {
     titleNext = item.next.title || theme.default_post_title;
     titleNext = titleNext.length > 17 ? (titleNext.substring(0,17) + "...") : titleNext;
   %>
-  <a href="<%- url_for(item.next.path) %>" data-title="<%= titleNext %>" class="pagination-next">Earlier<span class="icon"><i class="fas fa-chevron-right"></i></span></a>
+  <a href="<%- url_for(item.next.path) %>" data-title="<%= titleNext %>" class="pagination-next">Earlier<span class="icon"><i class="fas fa-angle-right"></i></span></a>
   <% } else { %>
-    <a class="pagination-next" title="This is the very oldest post" disabled>Earlier<span class="icon"><i class="fas fa-chevron-right"></i></a>
+    <a class="pagination-next" title="This is the very oldest post" disabled>Earlier<span class="icon"><i class="fas fa-angle-right"></i></a>
     <% } %>
  </nav> 

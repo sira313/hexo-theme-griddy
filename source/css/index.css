@@ -271,6 +271,12 @@ code {
   width: 100%;
 }
 
+/* tags */
+.tags .tag {
+  margin-bottom: 0;
+  padding-left: 0.5em;
+  padding-right: 0.5em;
+}
 
 /* Theme: Solarized - Github
  * More theme here: http://softwaremaniacs.org/media/soft/highlight/test.html
