@@ -1,41 +1,53 @@
 <section>
 <% if(page.comments && theme.comments && theme.comments.disqus_shortname){ %>
-    <div id="disqus_thread">
-        <noscript>Please enable JavaScript to view the <a href="//disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+    <div class="hero-foot" style="padding-right: 1.5rem;padding-left: 1.5rem;padding-top: 3rem">
+        <div class="box has-box-shadow" style="width: 100%">
+            <div id="disqus_thread">
+                <noscript>Please enable JavaScript to view the <a href="//disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+            </div>
+        </div>
     </div>
 <% } %>
 
 <% if(page.comments && theme.comments && theme.comments.facebook && theme.comments.facebook.appid) { %>
-    <div id="fb-root"></div>
-    <script>
-        (function(d, s, id) {
-            var js, fjs = d.getElementsByTagName(s)[0];
-            if (d.getElementById(id)) return;
-            js = d.createElement(s); js.id = id;
-            js.src = "//connect.facebook.net/en_US/all.js#xfbml=1&appId=<%= theme.comments.facebook.appid %>";
-            fjs.parentNode.insertBefore(js, fjs);
-        }(document, 'script', 'facebook-jssdk'));
-    </script>
-    <div class="fb-comments" data-href="<%= url %>" data-num-posts="<%= theme.comments.facebook.comment_count %>" data-width="100%" data-colorscheme="<%= theme.comments.facebook.comment_colorscheme %>"></div>
+    <div class="hero-foot" style="padding-right: 1.5rem;padding-left: 1.5rem;padding-top: 3rem">
+        <div class="box has-box-shadow" style="width: 100%">
+            <div id="fb-root"></div>
+            <script>
+                (function(d, s, id) {
+                    var js, fjs = d.getElementsByTagName(s)[0];
+                    if (d.getElementById(id)) return;
+                    js = d.createElement(s); js.id = id;
+                    js.src = "//connect.facebook.net/en_US/all.js#xfbml=1&appId=<%= theme.comments.facebook.appid %>";
+                    fjs.parentNode.insertBefore(js, fjs);
+                }(document, 'script', 'facebook-jssdk'));
+            </script>
+            <div class="fb-comments" data-href="<%= url %>" data-num-posts="<%= theme.comments.facebook.comment_count %>" data-width="100%" data-colorscheme="<%= theme.comments.facebook.comment_colorscheme %>"></div>
+        </div>
+    </div>
 <% } %>
 
 <% if(page.comments && theme.comments && theme.comments.valine && theme.comments.valine.appid && theme.comments.valine.appkey ){ %>
-    <div id="valine"></div>
-    <!-- valine comment -->
-    <script src="//cdn1.lncld.net/static/js/3.0.4/av-min.js"></script>
-    <script src='//unpkg.com/valine/dist/Valine.min.js'></script>
-    <script>
-    new Valine({
-        el: '#valine' ,
-        notify:<%= theme.comments.valine.notify %>,
-        verify:<%= theme.comments.valine.verify %>,
-        app_id: '<%= theme.comments.valine.appid %>',
-        app_key: '<%= theme.comments.valine.appkey %>',
-        placeholder: '<%= theme.comments.valine.placeholder %>',
-        path:window.location.pathname,
-        lang:'en',
-        avatar:'<%= theme.comments.valine.avatar %>' 
-    });
-    </script>
+    <div class="hero-foot" style="padding-right: 1.5rem;padding-left: 1.5rem;padding-top: 3rem">
+        <div class="box has-box-shadow" style="width: 100%">
+            <div id="valine"></div>
+            <!-- valine comment -->
+            <script src="//cdn1.lncld.net/static/js/3.0.4/av-min.js"></script>
+            <script src='//unpkg.com/valine/dist/Valine.min.js'></script>
+            <script>
+            new Valine({
+                el: '#valine' ,
+                notify:<%= theme.comments.valine.notify %>,
+                verify:<%= theme.comments.valine.verify %>,
+                app_id: '<%= theme.comments.valine.appid %>',
+                app_key: '<%= theme.comments.valine.appkey %>',
+                placeholder: '<%= theme.comments.valine.placeholder %>',
+                path:window.location.pathname,
+                lang:'en',
+                avatar:'<%= theme.comments.valine.avatar %>' 
+            });
+            </script>
+        </div>
+    </div>
 <% } %>
 </section>
