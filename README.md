@@ -7,12 +7,7 @@
 
 This theme is created by combine both of [Goyangin](https://github.com/g3xx/goyangin) and [Magnetic](https://github.com/klugjo/hexo-theme-magnetic) using ejs and bulma framework. Inspired by [Procreate Showcase website](https://procreate.art/showcase) and [Instagram Profile](https://www.instagram.com/kanashkova.lera/) look-alike.
 
-[`Live Demo`](https://aflasio.netlify.com) | [`Read The Installation Instruction Here`](https://github.com/sira313/hexo-theme-griddy/wiki/Installation-and-Settings-Instruction) | [`Project Progress`](https://github.com/sira313/hexo-theme-griddy/projects/1)
+[![Generic badge](https://img.shields.io/badge/Demo-Aflasio-brightgreen.svg)](https://aflasio.netlify.com) [![Generic badge](https://img.shields.io/badge/Instalation-Read&nbsp;on&nbsp;Wiki-important.svg)](https://github.com/sira313/hexo-theme-griddy/wiki/Installation-and-Settings-Instruction) [![Generic badge](https://img.shields.io/badge/Donate-Paypal-blueviolet.svg)](https://paypal.me/aflasio) [![Generic badge](https://img.shields.io/badge/Lisence-MIT-informational.svg)](https://github.com/sira313/hexo-theme-griddy/blob/master/LICENSE)
 
 ### Notes
-This Theme is automatically generate your category by the front matter.
-> I am so sorry if you find any trouble 'cause for the real i just copy paste the script, my background is not a web developper.
-
-### Support Me
-
-[![donate](https://i.ibb.co/BKRhBpK/paypal-donate-button-high-quality-png.png)](https://paypal.me/aflasio)
+My background is not a web developper so, I am so sorry if you find any trouble 'cause for the real _i just copy paste the script_. But you can tell your problems on the [`the issues`](https://github.com/sira313/hexo-theme-griddy/issues), maybe i can help you as much as i can do.
