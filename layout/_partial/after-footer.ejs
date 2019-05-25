@@ -8,12 +8,16 @@
 <%- js('js/imagesloaded.js') %>
 <%- js('js/classie.js') %>
 <%- js('js/AnimOnScroll.js') %>
+<%- js('js/AnimOnScroll.js') %>
 <script>
-	new AnimOnScroll( document.getElementById( 'grid' ), {
+ var grid = document.getElementById( 'grid' );
+ if (grid) {
+	new AnimOnScroll(grid, {
 		minDuration : 0.4,
 		maxDuration : 0.7,
 		viewportFactor : 0.2
 	} );
+}
 </script>
 <!-- fontawesome -->
 <script src="//cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.1/js/all.min.js"></script>
