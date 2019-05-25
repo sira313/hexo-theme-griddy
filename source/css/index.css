@@ -48,42 +48,7 @@ h6, .h6 {
   margin-bottom: 1em;
 }
 
-/* for box */
-.has-shadow-hover {
-  transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
-}
-.has-shadow-hover:hover {
-    box-shadow: 0 0px 10px #0000001c;
-}
-
-.has-box-shadow {
-  box-shadow: 0 0px 10px #0000001c;
-}
-
-@media screen and (min-width: 768px) {
-.has-box-shadow {
-    border-radius: 10px;
-  }
-}
-
-/* for navbar */
-.has-bg-shadow {
-  box-shadow: 0 0px 10px #0000001c;
-}
-
-/* button */
-.has-transparent-bg {
-  background-color: transparent;
-  border: none;
-} 
-.has-transparent-bg:hover {
-    background-color: #e8e8e8
-  }
-
-/* Background for hero */
-.has-bg-img { background: url('https://bierpinter.com/wp-content/uploads/2018/05/website-design-background-1.jpg')center top; background-size:cover; }
-
-/* index */
+/* post-caption */
 .main .work a .caption{
     transition:all .1s linear;
     -webkit-transition:all .1s linear;
@@ -127,11 +92,38 @@ h6, .h6 {
     border-top: 1px solid #bfbbbb;
 }
 
-@media screen and (max-width: 900px) {
-.main .work a:hover .caption {
-  display: none;
-  }
+/* for box */
+.has-shadow-hover {
+  transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
 }
+.has-shadow-hover:hover {
+    box-shadow: 0 0px 10px #0000001c;
+}
+
+.has-box-shadow {
+  box-shadow: 0 0px 10px #0000001c;
+}
+
+.has-box-shadow {
+    border-radius: 10px;
+}
+
+/* for navbar */
+.has-bg-shadow {
+  box-shadow: 0 0px 10px #0000001c;
+}
+
+/* button */
+.has-transparent-bg {
+  background-color: transparent;
+  border: none;
+} 
+.has-transparent-bg:hover {
+    background-color: #e8e8e8
+  }
+
+/* Background for hero */
+.has-bg-img { background: url('https://bierpinter.com/wp-content/uploads/2018/05/website-design-background-1.jpg')center top; background-size:cover; }
 
 /* column scroll*/
 .has-scroll {
@@ -158,6 +150,39 @@ h6, .h6 {
   }
 }
 
+@media screen and (max-width: 374px) {
+.hero-body {
+    padding-top: 1.5rem;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+  }
+}
+
+.hero-foot {
+  padding-right: 1.5rem;
+  padding-left: 1.5rem;
+  padding-top: 2rem;
+}
+
+@media screen and (max-width: 374px) {
+.hero-foot {
+    padding-top: 1.5rem;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+  }
+}
+
+.footer {
+  padding-bottom: 3rem;
+  background-color:whitesmoke;
+}
+
+@media screen and (max-width: 374px) {
+.footer {
+    padding: 1.5rem;
+  }
+}
+
 @media screen and (max-width: 768px) {
 .has-margin-0 {
     margin-right: 0;
@@ -165,17 +190,14 @@ h6, .h6 {
   }
 }
 
-@media screen and (min-width: 769px) {
 .has-rounded-corner {
     border-radius: 10px;
-  }
 }
 
+
 /* content image */
-@media screen and (min-width: 768px) {
 .content img {
     border-radius: 10px;
-  }
 }
 
 /* title-padding */
@@ -226,6 +248,12 @@ h6, .h6 {
 }
 }
 
+@media screen and (max-width: 374px) {
+  .box-mobile {
+  padding: 10px;
+}
+}
+
 code {
     font-size: 15px;
     display: inline-block;
@@ -233,42 +261,6 @@ code {
     font-weight: 400;
     background-color: #f7f8f8;
     padding: 0 10px;
-}
-
-/* ---- grid ---- */
-
-.grid {
-  background: white;
-}
-
-/* clear fix */
-.grid:after {
-  content: '';
-  display: block;
-  clear: both;
-}
-
-/* ---- .grid-item ---- */
-.grid-sizer,
-.grid-item {
-  width: 33.333%;
-  padding: 2px;
-}
-
-@media screen and (min-width: 768px) {
-.grid-sizer,
-.grid-item {
-  padding: 5px;
-  }
-}
-
-.grid-item {
-  float: left;
-}
-
-.grid-item img {
-  display: block;
-  width: 100%;
 }
 
 /* tags */

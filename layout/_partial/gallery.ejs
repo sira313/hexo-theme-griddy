@@ -1,12 +1,11 @@
-<div class="grid">
+<div class="grid effect-8" id="grid">
     <% if (item.photos.length){ %>
         <% item.photos.forEach(function(photo){ %>
-            <div class="grid-sizer"></div>
-            <div class="picture-container grid-item">
+            <li>
                 <a href="<%- photo %>" data-fancybox="gallery">
                     <img src="<%- photo %>" class="img-thumbnail has-shadow-hover" alt="gallery"/>
                 </a>
-            </div>
+            </li>
         <% }); %>
     <% } %>
 </div>

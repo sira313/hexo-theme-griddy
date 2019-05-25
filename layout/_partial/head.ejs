@@ -1,4 +1,9 @@
 <head>
+    <!-- favicon -->
+    <% if (theme.favicon){ %>
+        <link rel="shortcut icon" href="<%= theme.favicon %>" type="image/x-icon">
+        <link rel="icon" href="<%= theme.favicon %>" type="image/x-icon">
+    <% } %>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0" />
@@ -46,9 +51,8 @@
     <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
     <!-- Custom styles for this template -->
     <%- css('css/index.css') %>
-    <!-- favicon -->
-    <% if (theme.favicon){ %>
-        <link rel="shortcut icon" href="<%= theme.favicon %>" type="image/x-icon">
-        <link rel="icon" href="<%= theme.favicon %>" type="image/x-icon">
-    <% } %>
+    <%- css('css/component.css') %>
+    <%- js('js/modernizr.custom.js') %>
+    <!-- jquery -->
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.slim.min.js"></script>
 </head>

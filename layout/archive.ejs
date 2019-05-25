@@ -1,9 +1,8 @@
 <%- partial('_partial/menu') %>
 <%- partial('_partial/header') %>
-<% var i = 0; %>
-<div class="columns is-multiline main is-mobile has-margin-0">
-    <% page.posts.each(function(item){ i++ %>
-        <%- partial('_partial/article-archive', {item: item}) %>
+<div class="grid effect-8 main" id="grid">
+    <% page.posts.each(function(item){ %>
+        <%- partial('_partial/article-excerpt', {item: item}) %>
     <% }); %>
 </div>
 <%- partial('_partial/pagination') %>
