@@ -4,6 +4,7 @@ keywords: Aflasio,Gallery,Artwork,Portfolio
 
 menu:
   About: /about #you need to create "about" page first
+  Friends: /friends
 
 # Default post title
 default_post_title: Untitled #default post title will automatically show if you forgot to write the title of your post
@@ -12,10 +13,10 @@ default_post_title: Untitled #default post title will automatically show if you 
 default_cover_index: "/img/seira.jpg" #default cover index will automatically show if you forgot to set up the cover index on your post. This is using square ratio, change to your picture path
 
 favicon: /img/favicon.png #favicon is for your logo on the tab's browser. use transparent BG, more small more good.
-logo: img/logo2.svg #logo show in the menu and header
-cover_page: img/cover.jpg
-profile_pic: /img/450x450/seira.jpg #profil pic will show on the left side of the post's title
-author: Sira Argia #name author in post (default)
+logo: img/logo2.svg #logo show in the menu bar
+cover_page: img/cover.jpg #cover image will show on the header
+profile_pic: /img/450x450/seira.jpg #profil pic will show on the header and left side of the post's title
+author: Sira Argia #author's name in post
 
 comments:
   #disqus_shortname: aflasio
@@ -24,10 +25,9 @@ comments:
     #appid: 558386947954045
     #comment_count: 5
     #comment_colorscheme: light
-  # Valine comments https://valine.js.org
   valine:
-    appid:  6jbQfaaH3EJezmsqw43NCcNa-gzGzoHsz
-    appkey:  5AsBAiusJURpbNDHTP4LHwA6
+    appid:  6jbQfaaH3EJezmsqw43NCcNa-gzGzoHsz #your valine appid here get it on https://valine.js.org
+    appkey:  5AsBAiusJURpbNDHTP4LHwA6 #your valine appkey here
     notify: false # true/false:mail notify !!!Test,Caution. https://github.com/xCss/Valine/wiki/Valine-%E8%AF%84%E8%AE%BA%E7%B3%BB%E7%BB%9F%E4%B8%AD%E7%9A%84%E9%82%AE%E4%BB%B6%E6%8F%90%E9%86%92%E8%AE%BE%E7%BD%AE
     verify: false # true/false:verify code
     avatar: mm # avatar style https://github.com/xCss/Valine/wiki/avatar-setting-for-valine

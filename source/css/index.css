@@ -152,7 +152,7 @@ h6, .h6 {
 
 @media screen and (max-width: 400px) {
 .hero-body {
-    padding-top: 1.5rem;
+    padding-top: 1.7rem;
     padding-left: 0.5rem;
     padding-right: 0.5rem;
     padding-bottom: 0.9rem;
@@ -242,6 +242,7 @@ h6, .h6 {
   bottom: 4rem;
 }
 
+/* custom box */
 @media screen and (min-width: 700px) {
   .content-box {
   padding-left: 1rem;
@@ -252,6 +253,20 @@ h6, .h6 {
 @media screen and (max-width: 400px) {
   .box-mobile {
   padding: 10px;
+}
+}
+
+.margin-bottom-8 {
+  padding-left: 0;
+  padding-right: 0;
+  padding-top: 0;
+  padding-bottom: 1.1rem;
+  margin-top: 3rem
+}
+
+@media screen and (max-width: 400px) {
+  .box:not(:last-child).margin-bottom-8 {
+  margin-bottom: 0.8rem;
 }
 }
 

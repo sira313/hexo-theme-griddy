@@ -1,9 +1,13 @@
 <%- partial('_partial/menu') %>
-<%- partial('_partial/header') %>
-<ul class="grid effect-8 main" id="grid">
-    <% page.posts.each(function(item){ %>
-        <%- partial('_partial/article-excerpt', {item: item}) %>
-    <% }); %>
-</ul>
-<%- partial('_partial/pagination') %>
-<%- partial('_partial/footer') %>
+<div class="hero">
+    <div class="hero-body has-text-centered">
+    <%- partial('_partial/header') %>
+        <ul class="grid effect-8 main" id="grid">
+            <% page.posts.each(function(item){ %>
+                <%- partial('_partial/article-excerpt', {item: item}) %>
+            <% }); %>
+        </ul>
+        <%- partial('_partial/pagination') %>
+    </div>
+    <%- partial('_partial/footer') %>
+</div>
