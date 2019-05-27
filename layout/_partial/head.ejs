@@ -4,20 +4,21 @@
         <link rel="shortcut icon" href="<%= theme.favicon %>" type="image/x-icon">
         <link rel="icon" href="<%= theme.favicon %>" type="image/x-icon">
     <% } %>
+    <!-- locale -->
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0" />
     <!--Description-->
     <% if (page.description){ %>
         <meta name="description" content="<%= page.description %>">
-    <% } else if (config.description){ %>
-        <meta name="description" content="<%= config.description %>">
     <% } else if (page.excerpt){ %>
         <meta name="description" content="<%= strip_html(page.excerpt).replace(/^\s*/, '').replace(/\s*$/, '') %>">
     <% } else if (page.content){ %>
         <meta name="description" content="<%= strip_html(page.content).replace(/^\s*/, '').replace(/\s*$/, '').substring(0, 150) %>">
     <% } else if (page.content){ %>
         <meta name="description" content="<%= strip_html(list_categories).replace(/^\s*/, '').replace(/\s*$/, '').substring(0, 150) %>">
+    <% } else if (config.description){ %>
+        <meta name="description" content="<%= config.description %>">
     <% } %>
     <!-- color -->
     <meta name="theme-color" content="#ffffff">
@@ -29,8 +30,37 @@
     <% if (page.title){ %>
         <meta property="og:title" content="<%= page.title %>"/>
     <% } %>
+    <!--Open Graph type-->
+    <% if (page.title){ %>
+        <meta property="og:type" content="website"/>
+    <% } %>
+    <!--Page Cover-->
+    <%  
+      var ogi; 
+      if (page.opengraphimage) {
+        ogi = page.opengraphimage;
+      } else if(config.opengraphimage) {
+        ogi = config.opengraphimage;
+      } else {
+        ogi = theme.profile_pic;
+      }
+      ogi = config.url + url_for(ogi);
+    %>
+    <meta property="og:image" content="<%= ogi %>">
     <!--Open Graph Site Name-->
     <meta property="og:site_name" content="<%= config.title %>"/>
+    <!--Open Graph Site Description-->
+    <% if (page.description){ %>
+        <meta property="og:description" content="<%= page.description %>">
+    <% } else if (page.excerpt){ %>
+        <meta property="og:description" content="<%= strip_html(page.excerpt).replace(/^\s*/, '').replace(/\s*$/, '') %>">
+    <% } else if (page.content){ %>
+        <meta property="og:description" content="<%= strip_html(page.content).replace(/^\s*/, '').replace(/\s*$/, '').substring(0, 150) %>">
+    <% } else if (page.content){ %>
+        <meta property="og:description" content="<%= strip_html(list_categories).replace(/^\s*/, '').replace(/\s*$/, '').substring(0, 150) %>">
+    <% } else if (config.description){ %>
+        <meta property="og:description" content="<%= config.description %>">
+    <% } %>
     <!-- Title -->
     <%
         var title = [];
