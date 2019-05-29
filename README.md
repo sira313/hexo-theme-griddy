@@ -1,6 +1,5 @@
-<a href="https://cdn.staticaly.com/screenshot/aflasio.netlify.com?w=1200&h=600">
-  <img src="https://cdn.staticaly.com/screenshot/aflasio.netlify.com?w=1200&h=600" alt="ss" style="border-radius: 5px;box-shadow: 0 0px 10px #0000001c;">
-</a>
+![demo](https://cdn.statically.io/img/github.com/sira313/hexo-theme-griddy/raw/master/mockup.jpg)
+[_mockup template_](https://www.freepik.com/free-psd/laptop-mobile-mock-up-design_1053178.htm)
 
 ## Hexo Theme Griddy
 
