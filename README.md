@@ -1,4 +1,6 @@
-![demo](https://cdn.staticaly.com/screenshot/aflasio.netlify.com?w=1200&h=600)
+<a href="https://cdn.staticaly.com/screenshot/aflasio.netlify.com?w=1200&h=600">
+  <img src="https://cdn.staticaly.com/screenshot/aflasio.netlify.com?w=1200&h=600" alt="ss" style="border-radius: 5px;box-shadow: 0 0px 10px #0000001c;">
+</a>
 
 ## Hexo Theme Griddy
 
