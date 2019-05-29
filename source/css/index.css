@@ -36,6 +36,12 @@ h6, .h6 {
 }
 
 /* custom bulma */
+
+/* navbar item color */
+.navbar.is-white .navbar-end .navbar-link, .navbar.is-white .navbar-end>.navbar-item, .navbar.is-white .navbar-start .navbar-link, .navbar.is-white .navbar-start>.navbar-item {
+    color: #363636;
+}
+
 /* custom post content */
 @media screen and (min-width: 500px) {
   .content .post p {
