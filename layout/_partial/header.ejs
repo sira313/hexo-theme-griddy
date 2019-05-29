@@ -6,9 +6,11 @@
   </div>
   <figure id="profile_pic" class="image is-128x128 has-image-centered">
     <img class="is-rounded" src="<%= url_for(theme.profile_pic) %>" alt="profile pic" style="background: white;padding: 4px">
-    <h1 class="title is-3" style="margin-top:1rem;"> <%= config.title %> </h1>
   </figure>
-  <h2 class="subtitle is-6" style="padding-right: 1em;padding-left: 1em;margin-bottom: 0.8rem"> <% if (config.description){ %><%= config.description %><% } %> </h2>
-  <span class="button is-static is-small" style="border: unset"><span class="icon"><i class="fas fa-map-marker-alt"></i></span>&nbsp;<%= theme.location %></span>
+  <div class="profile_info">
+    <h1 class="title is-3"> <%= config.title %> </h1>
+    <h2 class="subtitle is-6" style="margin-bottom: 0.8rem"> <% if (config.description){ %><%= config.description %><% } %> </h2>
+    <span class="button is-static is-small" style="border: unset"><span class="icon"><i class="fas fa-map-marker-alt"></i></span>&nbsp;<%= theme.location %></span>
+  </div>
 </div>
 

@@ -242,6 +242,12 @@ h6, .h6 {
   bottom: 4rem;
 }
 
+.profile_info {
+  margin-top: -3rem;
+  padding-left: 1em;
+  padding-right: 1em;
+}
+
 /* custom box */
 @media screen and (min-width: 700px) {
   .content-box {
