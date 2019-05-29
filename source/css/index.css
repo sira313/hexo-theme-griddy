@@ -108,10 +108,9 @@ h6, .h6 {
 
 .has-box-shadow {
   box-shadow: 0 0px 10px #0000001c;
-}
-
-.has-box-shadow {
-    border-radius: 10px;
+  -moz-box-shadow: 0 0px 10px #0000001c;
+  -webkit-box-shadow: 0 0px 10px #0000001c;
+  border-radius: 10px;
 }
 
 /* for navbar */
