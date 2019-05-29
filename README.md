@@ -1,5 +1,4 @@
-![demo](https://cdn.statically.io/img/github.com/sira313/hexo-theme-griddy/raw/master/mockup.jpg)
-[_mockup template_](https://www.freepik.com/free-psd/laptop-mobile-mock-up-design_1053178.htm)
+![demo](https://cdn.staticaly.com/screenshot/aflasio.netlify.com?w=1200&h=600)
 
 ## Hexo Theme Griddy
 
