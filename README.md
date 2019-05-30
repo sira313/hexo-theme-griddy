@@ -17,10 +17,10 @@ This theme is created by combine both of [Goyangin](https://github.com/g3xx/goya
 
 ### Recomended Plugins (Optional)
 This themes is not come with any hexo plugin. So, if you want to make your blog running fast, this is the plugins that i used for the demo:
-- [hexo-pwa](https://github.com/lavas-project/hexo-pwa) for 
-- [hexo-all-minifier](https://github.com/chenzhutian/hexo-all-minifier)
-- [hexo-generator-feed](https://github.com/hexojs/hexo-generator-feed)
-- [hexo-generator-seo-friendly-sitemap](https://github.com/ludoviclefevre/hexo-generator-seo-friendly-sitemap)
+- [hexo-pwa](https://github.com/lavas-project/hexo-pwa) for offline service
+- [hexo-all-minifier](https://github.com/chenzhutian/hexo-all-minifier) minify the js, css, html, and pictures
+- [hexo-generator-feed](https://github.com/hexojs/hexo-generator-feed) for generate the feed
+- [hexo-generator-seo-friendly-sitemap](https://github.com/ludoviclefevre/hexo-generator-seo-friendly-sitemap) generate sitemap for [google webmaster tool](https://search.google.com/search-console)
 
 ### Notes
 My background is not a web developper so, I am so sorry if you find any trouble 'cause for the real _i just copy paste the script_. But you can tell your problems on the [`the issues`](https://github.com/sira313/hexo-theme-griddy/issues), maybe i can help you as much as i can do.
