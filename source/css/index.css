@@ -81,7 +81,8 @@ h6, .h6 {
     text-align: center;
     top: 50%;
     -ms-transform: translateY(-50%);
-    transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+            transform: translateY(-50%);
 }
 .main .work .caption h1{
     position: relative;
@@ -100,22 +101,28 @@ h6, .h6 {
 
 /* for box */
 .has-shadow-hover {
+  -webkit-transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+  -o-transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
   transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
 }
 .has-shadow-hover:hover {
-    box-shadow: 0 0px 10px #0000001c;
+    -webkit-box-shadow: 0 0 10px rgba(0,0,0,.18);
+    -webkit-box-shadow: 0 0 10px rgba(0,0,0,.18);
+            box-shadow: 0 0 10px rgba(0,0,0,.18);
 }
 
 .has-box-shadow {
-  box-shadow: 0 0px 10px #0000001c;
-  -moz-box-shadow: 0 0px 10px #0000001c;
-  -webkit-box-shadow: 0 0px 10px #0000001c;
+  box-shadow: 0 0 10px rgba(0,0,0,.18);
+  -moz-box-shadow: 0 0 10px rgba(0,0,0,.18);
+  -webkit-box-shadow: 0 0 10px rgba(0,0,0,.18);
   border-radius: 10px;
 }
 
 /* for navbar */
 .has-bg-shadow {
-  box-shadow: 0 0px 10px #0000001c;
+  -webkit-box-shadow: 0 0 10px rgba(0,0,0,.18);
+  -webkit-box-shadow: 0 0 10px rgba(0,0,0,.18);
+          box-shadow: 0 0 10px rgba(0,0,0,.18);
 }
 
 /* button */
