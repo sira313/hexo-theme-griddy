@@ -162,12 +162,16 @@ h6, .h6 {
   }
 }
 
+.hero-body {
+  padding-bottom: 0;
+}
+
 @media screen and (max-width: 400px) {
 .hero-body {
     padding-top: 1.7rem;
     padding-left: 0.5rem;
     padding-right: 0.5rem;
-    padding-bottom: 0.9rem;
+    padding-bottom: 0;
   }
 }
 

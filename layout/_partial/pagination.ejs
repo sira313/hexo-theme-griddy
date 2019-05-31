@@ -1,6 +1,5 @@
-
 <% if(page.prev || page.next) { %>
-  <nav class="pagination is-centered" role="navigation" aria-label="pagination">
+  <nav class="pagination is-centered" role="navigation" aria-label="pagination" style="margin-top: 1rem">
         <a class="button is-outlined pagination-previous" href="<%- config.root %><%- page.prev_link %>" <%- page.prev ? "" : "disabled" %> >
            <span class="icon"><i class="fas fa-chevron-left"></i></span><span>Previous</span> 
         </a>

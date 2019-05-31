@@ -12,7 +12,7 @@
     <% if (page.description){ %>
         <meta name="description" content="<%= page.description %>">
     <% } else if (page.excerpt){ %>
-        <meta name="description" content="<%= strip_html(page.excerpt).replace(/^\s*/, '').replace(/\s*$/, '') %>">
+        <meta name="description" content="<%= config.description %>">
     <% } else if (page.content){ %>
         <meta name="description" content="<%= strip_html(page.content).replace(/^\s*/, '').replace(/\s*$/, '').substring(0, 150) %>">
     <% } else if (page.content){ %>
@@ -53,7 +53,7 @@
     <% if (page.description){ %>
         <meta property="og:description" content="<%= page.description %>">
     <% } else if (page.excerpt){ %>
-        <meta property="og:description" content="<%= strip_html(page.excerpt).replace(/^\s*/, '').replace(/\s*$/, '') %>">
+        <meta property="og:description" content="<%= config.description %>">
     <% } else if (page.content){ %>
         <meta property="og:description" content="<%= strip_html(page.content).replace(/^\s*/, '').replace(/\s*$/, '').substring(0, 150) %>">
     <% } else if (page.content){ %>
