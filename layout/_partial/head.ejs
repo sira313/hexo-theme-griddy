@@ -31,9 +31,7 @@
         <meta property="og:title" content="<%= page.title %>"/>
     <% } %>
     <!--Open Graph type-->
-    <% if (page.title){ %>
-        <meta property="og:type" content="website"/>
-    <% } %>
+    <meta property="og:type" content="website"/>
     <!--Page Cover-->
     <%  
       var ogi; 
@@ -69,8 +67,8 @@
         if (page.category) title.push(page.category);
         if (page.tag) title.push(page.tag);
         if (page.archive) {
-            if (page.year) title.push(__('archive_b', page.year + (page.month ? '/' + page.month : '')));
-            else title.push(__('All Gallery'));
+            if (page.year) title.push(__('All Post', page.year + (page.month ? '/' + page.month : '')));
+            else title.push(__('All Post'));
         }
         title.push(config.title);
     %>
