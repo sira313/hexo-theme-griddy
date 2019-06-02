@@ -9,17 +9,47 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0" />
     <!--Description-->
-    <% if (page.description){ %>
-        <meta name="description" content="<%= page.description %>">
-    <% } else if (page.excerpt){ %>
-        <meta name="description" content="<%= config.description %>">
-    <% } else if (page.content){ %>
-        <meta name="description" content="<%= strip_html(page.content).replace(/^\s*/, '').replace(/\s*$/, '').substring(0, 150) %>">
-    <% } else if (page.content){ %>
-        <meta name="description" content="<%= strip_html(list_categories).replace(/^\s*/, '').replace(/\s*$/, '').substring(0, 150) %>">
-    <% } else if (config.description){ %>
-        <meta name="description" content="<%= config.description %>">
-    <% } %>
+    <%
+        var description = '';
+
+        if (page.description) {
+          description = page.description;
+        } else if (page.excerpt) {
+          description = strip_html(page.excerpt)
+                      .replace(/^\s*/, '')
+                      .replace(/\s*$/, '');
+        } else if (page.content) {
+          description = strip_html(page.content)
+                      .replace(/^\s*/, '')
+                      .replace(/\s*$/, '')
+                      .substring(0, 150);
+        } else {
+          description = config.description;
+        }
+
+        var terms = [];
+
+        if (page.categories) {
+            page.categories.each(function(item){ 
+              terms.push(item.name);
+            })
+        }
+
+        if (page.tags) {
+            page.tags.each(function(item){ 
+              terms.push(item.name);
+            })
+        }
+
+        if (terms) {
+          keywords = terms.join(', ');
+        }
+    %>
+    <meta name="description" content="<%= description || config.description %>">
+    <meta name="keywords" content="<%= keywords || config.keywords %>">
+    <meta name="author" content="<%= page.author || config.author %>">
+    <!-- og:description -->
+    <meta name="og:description" content="<%= description || config.description %>">
     <!-- color -->
     <meta name="theme-color" content="#ffffff">
     <!--Author-->
@@ -47,18 +77,6 @@
     <meta property="og:image" content="<%= ogi %>">
     <!--Open Graph Site Name-->
     <meta property="og:site_name" content="<%= config.title %>"/>
-    <!--Open Graph Site Description-->
-    <% if (page.description){ %>
-        <meta property="og:description" content="<%= page.description %>">
-    <% } else if (page.excerpt){ %>
-        <meta property="og:description" content="<%= config.description %>">
-    <% } else if (page.content){ %>
-        <meta property="og:description" content="<%= strip_html(page.content).replace(/^\s*/, '').replace(/\s*$/, '').substring(0, 150) %>">
-    <% } else if (page.content){ %>
-        <meta property="og:description" content="<%= strip_html(list_categories).replace(/^\s*/, '').replace(/\s*$/, '').substring(0, 150) %>">
-    <% } else if (config.description){ %>
-        <meta property="og:description" content="<%= config.description %>">
-    <% } %>
     <!-- Title -->
     <%
         var title = [];
