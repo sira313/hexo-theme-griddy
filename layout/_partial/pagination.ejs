@@ -1,6 +1,6 @@
 <% if(page.prev || page.next) { %>
 <nav class="pagination buttons" role="navigation" aria-label="pagination" style="margin-top:3rem;justify-content:center">
-  <a class="pagination-previous button is-white" style="color: #363636" href="<%- config.root %><%- page.prev_link %>" <%- page.prev ? "" : "disabled" %> ><span class="icon"><i class="fas fa-angle-left"></i></i></span>&nbsp;Previous</a>
-  <a class="pagination-next button is-white" style="color: #363636" href="<%- config.root %><%- page.next_link %>" <%- page.next ? "" : "disabled" %> >Next page&nbsp;<span class="icon"><i class="fas fa-angle-right"></i></i></span></a>
+  <a class="pagination-previous button is-white is-rounded" style="color: #363636" href="<%- config.root %><%- page.prev_link %>" <%- page.prev ? "" : "disabled" %> ><span class="icon"><i class="fas fa-angle-left"></i></span>&nbsp;Prev</a>
+  <a class="pagination-next button is-white is-rounded" style="color: #363636" href="<%- config.root %><%- page.next_link %>" <%- page.next ? "" : "disabled" %> >Next&nbsp;<span class="icon"><i class="fas fa-angle-right"></i></span></a>
 </nav>
 <% } %>
