@@ -7,7 +7,7 @@
 
 This theme is created by combine both of [Goyangin](https://github.com/g3xx/goyangin) and [Magnetic](https://github.com/klugjo/hexo-theme-magnetic) using ejs and bulma framework. Inspired by [Procreate Showcase website](https://procreate.art/showcase) look-alike.
 
-[![Generic badge](https://img.shields.io/badge/Demo-Aflasio-brightgreen.svg)](https://aflasio.netlify.com) [![Generic badge](https://img.shields.io/badge/Instalation-Read&nbsp;on&nbsp;Wiki-important.svg)](https://github.com/sira313/hexo-theme-griddy/wiki) [![Generic badge](https://img.shields.io/badge/Donate-Paypal-blueviolet.svg)](https://paypal.me/aflasio) [![Generic badge](https://img.shields.io/badge/Lisence-MIT-informational.svg)](https://github.com/sira313/hexo-theme-griddy/blob/master/LICENSE)
+[![Generic badge](https://img.shields.io/badge/Demo-Aflasio-brightgreen.svg)](https://hexo-theme-griddy.aflasio.art/) [![Generic badge](https://img.shields.io/badge/Instalation-Read&nbsp;on&nbsp;Wiki-important.svg)](https://github.com/sira313/hexo-theme-griddy/wiki) [![Generic badge](https://img.shields.io/badge/Donate-Paypal-blueviolet.svg)](https://paypal.me/aflasio) [![Generic badge](https://img.shields.io/badge/Lisence-MIT-informational.svg)](https://github.com/sira313/hexo-theme-griddy/blob/master/LICENSE)
 
 ### Features
 - Grid (1 column mobile, 2 columns tablet, 3 columns desktop, 4 columns large desktop)
